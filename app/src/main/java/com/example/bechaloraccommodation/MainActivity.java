@@ -12,12 +12,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent intent=new Intent(MainActivity.this,SplashScreenActivity2.class);
-                startActivity(intent);
-            }
-        },3000);
+//        new Handler().postDelayed(new Runnable() {
+//            @Override
+//            public void run() {
+//                Intent intent=new Intent(MainActivity.this,SplashScreenActivity2.class);
+//                startActivity(intent);
+//            }
+//        },3000);
     }
 }
