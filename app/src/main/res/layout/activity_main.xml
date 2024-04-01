@@ -8,26 +8,26 @@
     android:background="@color/pink"
     tools:context=".SplashScreenActivity2">
 
-<!--    <androidx.cardview.widget.CardView-->
-<!--        android:id="@+id/splash_img"-->
-<!--        android:layout_width="275dp"-->
-<!--        android:layout_height="269dp"-->
-<!--        app:cardCornerRadius="150dp"-->
-<!--        android:layout_marginLeft="50dp"-->
-<!--        android:layout_marginTop="150dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent">-->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/splash_img"
+        android:layout_width="275dp"
+        android:layout_height="269dp"
+        app:cardCornerRadius="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-<!--        <ImageView-->
-<!--            android:id="@+id/slpash_img1"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:layout_gravity="center"-->
-<!--            android:src="@drawable/homelogobechalorapp"></ImageView>-->
+        <ImageView
+            android:id="@+id/slpash_img1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/homelogobechalorapp"></ImageView>
 
-<!--    </androidx.cardview.widget.CardView>-->
+    </androidx.cardview.widget.CardView>
 
     <TextView
         android:layout_width="match_parent"
@@ -35,7 +35,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="100dp"
         android:layout_below="@id/splash_img"
-        android:text="Bechalor Solution home page"
+        android:text="Bechalor Solution"
         android:textSize="30dp"
         android:textStyle="bold"
         android:textColor="@color/white"

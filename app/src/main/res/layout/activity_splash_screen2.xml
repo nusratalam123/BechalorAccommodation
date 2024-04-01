@@ -35,7 +35,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="100dp"
         android:layout_below="@id/splash_img"
-        android:text="Bechalor Solution"
+        android:text="welcome to our home page"
         android:textSize="30dp"
         android:textStyle="bold"
         android:textColor="@color/white"
